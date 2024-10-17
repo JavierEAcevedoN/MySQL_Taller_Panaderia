@@ -585,20 +585,35 @@
 											"top": 672,
 											"width": 258.1259765625,
 											"height": 13
+										},
+										{
+											"_type": "ERDColumnView",
+											"_id": "AAAAAAGSnAApGjjaE3E=",
+											"_parent": {
+												"$ref": "AAAAAAGSltgiRUvTq2o="
+											},
+											"model": {
+												"$ref": "AAAAAAGSnAApDDjXG74="
+											},
+											"font": "Arial;13;0",
+											"left": 1165,
+											"top": 687,
+											"width": 258.1259765625,
+											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1160,
 									"top": 607,
 									"width": 268.1259765625,
-									"height": 83
+									"height": 98
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 1160,
 							"top": 584,
 							"width": 268.1259765625,
-							"height": 106,
+							"height": 121,
 							"nameLabel": {
 								"$ref": "AAAAAAGSltgiRUvSPzE="
 							},
@@ -1827,7 +1842,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1305,
-									"top": 722,
+									"top": 729,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1844,7 +1859,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 1306,
-									"top": 709,
+									"top": 724,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -1878,7 +1893,7 @@
 								"$ref": "AAAAAAGSltgiRUvRDYA="
 							},
 							"lineStyle": 2,
-							"points": "1291:690;1291:768",
+							"points": "1291:705;1291:768",
 							"nameLabel": {
 								"$ref": "AAAAAAGSlw838k84Sqo="
 							},
@@ -2589,6 +2604,16 @@
 							"length": "256",
 							"nullable": true,
 							"unique": true
+						},
+						{
+							"_type": "ERDColumn",
+							"_id": "AAAAAAGSnAApDDjXG74=",
+							"_parent": {
+								"$ref": "AAAAAAGSltgiRUvPmNo="
+							},
+							"name": "FechaNacimiento",
+							"type": "DATE",
+							"nullable": true
 						}
 					]
 				},
